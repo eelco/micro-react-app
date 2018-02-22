@@ -1,0 +1,23 @@
+{
+    "name": "micro-react-app",
+    "version": "0.0.1",
+    "main": "index.ts",
+    "author": "Eelco Lempsink",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/react": "^16.0.38",
+        "@types/react-dom": "^16.0.4",
+        "live-server": "^1.2.0",
+        "rollup": "^0.56.2",
+        "tslint": "^5.9.1",
+        "typescript": "^2.7.2",
+        "watch": "^1.0.2"
+    },
+    "dependencies": {},
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "semi": false,
+        "trailingComma": "es5"
+    }
+}
