@@ -1,10 +1,10 @@
 default: dev
 
 # `rollup -w` is buggy, unfortunately
-dev: dist/index.html
+dev: dist
+	yarn live-server dist &
 	yarn tsc -w &
-	yarn watch 'rollup -c' build &
-	yarn live-server dist
+	yarn watch 'rollup -c' build
 
 build:
 	yarn tsc
